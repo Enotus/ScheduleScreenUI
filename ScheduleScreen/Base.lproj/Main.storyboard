@@ -211,13 +211,16 @@
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
-                                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="5" translatesAutoresizingMaskIntoConstraints="NO" id="buv-rr-LhY">
+                                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="5" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="buv-rr-LhY">
                                                                 <rect key="frame" x="16" y="0.0" width="304" height="240"/>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                <date key="date" timeIntervalSinceReferenceDate="524517482.89086801">
-                                                                    <!--2017-08-15 19:18:02 +0000-->
+                                                                <date key="date" timeIntervalSinceReferenceDate="524473200.89086801">
+                                                                    <!--2017-08-15 07:00:00 +0000-->
                                                                 </date>
+                                                                <connections>
+                                                                    <action selector="datePickerChanged:" destination="v2D-pI-6DN" eventType="valueChanged" id="glO-Gd-hKf"/>
+                                                                </connections>
                                                             </datePicker>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -283,6 +286,7 @@
                     <connections>
                         <outlet property="datePicker" destination="buv-rr-LhY" id="uDr-rR-eYB"/>
                         <outlet property="datePickerContainer" destination="fke-xw-9Vo" id="rju-j5-efD"/>
+                        <outlet property="datePickerLabel" destination="6cs-ji-a9A" id="v2Q-hr-5XO"/>
                         <outlet property="daysView" destination="nDK-AM-CvA" id="VzT-Gn-kr3"/>
                         <outlet property="propertiesStackView" destination="tk5-WO-BNV" id="Yju-Jk-xlv"/>
                         <outlet property="propertiesView" destination="ifF-cU-wQf" id="a7c-o0-dEj"/>

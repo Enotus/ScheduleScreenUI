@@ -1,9 +1,9 @@
 //
 //  darkGreyButton.swift
-//  HowToWrite
+//  ScheduleScreen
 //
-//  Created by Igor Volkov on 15/08/2017.
-//  Copyright © 2017 supp-f. All rights reserved.
+//  Created by Enotus on 25/04/2018.
+//  Copyright © 2018 enotus. All rights reserved.
 //
 
 import UIKit

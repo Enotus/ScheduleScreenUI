@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5fF-X3-wJd">
-                                <rect key="frame" x="19.5" y="78" width="336" height="512.5"/>
+                                <rect key="frame" x="19.5" y="73" width="336" height="522.5"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ifF-cU-wQf">
                                         <rect key="frame" x="0.0" y="0.0" width="336" height="460.5"/>
@@ -253,10 +253,10 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6B7-x5-r65" customClass="DarkGreyButton" customModule="HowToWrite" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="468.5" width="336" height="44"/>
+                                        <rect key="frame" x="0.0" y="468.5" width="336" height="54"/>
                                         <color key="backgroundColor" name="DarkGrey"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="Pw3-Ff-rgC"/>
+                                            <constraint firstAttribute="height" constant="54" id="Pw3-Ff-rgC"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title="Done">

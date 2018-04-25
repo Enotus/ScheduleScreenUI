@@ -11,7 +11,7 @@ import UIKit
 extension UIView {
     func darkGreyRounded() {
         self.backgroundColor = UIColor.htwDarkBlueGrey
-        self.layer.cornerRadius = 10
+        self.layer.cornerRadius = 16
     }
     
     func blueCircled() {

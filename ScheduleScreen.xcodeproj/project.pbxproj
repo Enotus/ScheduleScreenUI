@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		71C0C85F2090282D0065545D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0C85E2090282D0065545D /* AppDelegate.swift */; };
-		71C0C8612090282D0065545D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C0C8602090282D0065545D /* ViewController.swift */; };
 		71C0C8642090282D0065545D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C0C8622090282D0065545D /* Main.storyboard */; };
 		71C0C8662090282E0065545D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C0C8652090282E0065545D /* Assets.xcassets */; };
 		71C0C8692090282E0065545D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C0C8672090282E0065545D /* LaunchScreen.storyboard */; };
@@ -22,7 +21,6 @@
 /* Begin PBXFileReference section */
 		71C0C85B2090282D0065545D /* ScheduleScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScheduleScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C0C85E2090282D0065545D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71C0C8602090282D0065545D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71C0C8632090282D0065545D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71C0C8652090282E0065545D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71C0C8682090282E0065545D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				71C0C85E2090282D0065545D /* AppDelegate.swift */,
-				71C0C8602090282D0065545D /* ViewController.swift */,
 				71C0C8622090282D0065545D /* Main.storyboard */,
 				71C0C8722090294F0065545D /* ScheduleViewController.swift */,
 				71C0C876209029AE0065545D /* UIView+Styles.swift */,
@@ -150,7 +147,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71C0C8612090282D0065545D /* ViewController.swift in Sources */,
 				71C0C875209029760065545D /* CircleBlueButton.swift in Sources */,
 				71C0C85F2090282D0065545D /* AppDelegate.swift in Sources */,
 				71C0C8712090292D0065545D /* DarkGreyButton.swift in Sources */,
